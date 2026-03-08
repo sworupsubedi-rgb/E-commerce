@@ -1,4 +1,4 @@
-
+import React, { useState } from 'react';
 import Banner from './components/banner/Banner'
 import Catagory from './components/category/Catagory'
 import Category from './components/category/Category'
@@ -11,6 +11,10 @@ import Products from './components/products/Products'
 import Blog from './components/blog/Blog'
 import Sponser from './components/sponser/Sponser'
 import Footer from './components/footer/Footer'
+import Clock from './components/clock/Clock'
+import Congrats from './components/clock/congratulations'
+import Cong from './components/clock/Cong'
+
 const bannerdata ={
   discount:"30% OFF",
   title: "Fine Smile",
@@ -34,11 +38,14 @@ const bannerdat ={
 
 }
 
-
 function App() {
+  const [theme, setTheme] = useState('bg-white text-black');
   return(
-    <>
-      <Navbar />
+<div className={`${theme} transition-all duration-500 min-h-screen`}>
+    <div className="fixed top-0 left-0 w-full z-[999]">
+      <Clock />
+         <Navbar setTheme={setTheme} />
+      </div><br /><br /><br />
       <Hero />
       <Category />
       <Catagory />
@@ -48,8 +55,12 @@ function App() {
       <Banner data={bannerdat} />
       <Blog />
       <Sponser />
+     <Cong />
       <Footer />
-    </>
+    
+    </div>
+
+
   )
   
 

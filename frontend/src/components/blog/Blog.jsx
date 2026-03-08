@@ -12,17 +12,17 @@ const blogdata =[
         image:image1,
     },
     {
-        title:"How to choose smartwatch",
+        title:"How to choose Laptop",
         subtitle:
-        "Make sure the watch works with your phone (Android or I-Phone). Choose Battery Life at least 2-3 days.",
+        "Make sure your laptop contains the specs that is compactible for your work.",
         published:"Jan 20, 2024 by Sworup Subedi",
         image:image2,
     },
 
     {
-        title:"How to choose smartwatch",
+        title:"Where to get VR",
         subtitle:
-        "Make sure the watch works with your phone (Android or I-Phone). Choose Battery Life at least 2-3 days.",
+        "Search for a store where any AR and VR headsets are available and see the revies of the shop or retailer after confirm that the rretailer is trusted then you can buy from the retailor.",
         published:"Jan 20, 2024 by Sworup Subedi",
         image:image3,
     },
