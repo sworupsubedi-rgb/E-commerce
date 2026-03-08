@@ -45,7 +45,7 @@ function App() {
     <div className="fixed top-0 left-0 w-full z-[999]">
       <Clock />
          <Navbar setTheme={setTheme} />
-      </div><br /><br /><br />
+      </div><br /><br /><br /><br /><br />
       <Hero />
       <Category />
       <Catagory />
