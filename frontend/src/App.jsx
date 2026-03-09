@@ -12,7 +12,6 @@ import Blog from './components/blog/Blog'
 import Sponser from './components/sponser/Sponser'
 import Footer from './components/footer/Footer'
 import Clock from './components/clock/Clock'
-import Congrats from './components/clock/congratulations'
 import Cong from './components/clock/Cong'
 
 const bannerdata ={
