@@ -42,7 +42,7 @@ function App() {
   return(
 <div className={`${theme} transition-all duration-500 min-h-screen`}>
     <div className="fixed top-0 left-0 w-full z-[999]">
-      <Clock />
+      <Clock theme={theme}/>
          <Navbar setTheme={setTheme} />
       </div><br /><br /><br /><br /><br />
       <Hero />

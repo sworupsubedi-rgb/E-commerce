@@ -15,10 +15,10 @@ const Clock = () => {
     <div className="fixed top-2 right-4 z-[1000] pointer-events-none">
       <div className="flex gap-4">
      
-        <b className="mix-blend-difference text-black cursor-pointer uppercase tracking-widest text-sm">
+        <b className="mix-blend-difference text-red-800 cursor-pointer uppercase tracking-widest text-sm">
           {now.toLocaleDateString()}
         </b>
-        <b className="mix-blend-difference text-black cursor-pointer uppercase tracking-widest text-sm">
+        <b className="mix-blend-difference text-red-800 cursor-pointer uppercase tracking-widest text-sm">
           {now.toLocaleTimeString()}
         </b>
       </div>
